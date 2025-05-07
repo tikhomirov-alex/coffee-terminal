@@ -1,0 +1,46 @@
+@use '../../style.scss';
+
+.container {
+  width: 1080px;
+  height: 1920px;
+  padding: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  background-color: style.$yellow;
+  color: style.$black;
+}
+
+.info {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.imgBox {
+  width: 600px;
+  height: 600px;
+  border: 10px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img {
+  width: 70%;
+  height: auto;
+}

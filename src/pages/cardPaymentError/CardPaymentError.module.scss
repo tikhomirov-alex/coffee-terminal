@@ -1,0 +1,39 @@
+@use '../../style.scss';
+
+.container {
+  width: 1080px;
+  height: 1920px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  background-color: style.$red;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid style.$white;
+    object-fit: cover;
+    padding: 50px;
+  }
+
+  p {
+    font-size: 72px;
+    margin-top: 20px;
+  }
+}
+
+.actions {
+  text-align: center;
+}

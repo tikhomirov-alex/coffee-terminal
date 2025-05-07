@@ -1,0 +1,19 @@
+@use '../../style.scss';
+
+.container {
+  width: 1080px;
+  height: 1920px;
+  padding: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: style.$yellow;
+  color: style.$black;
+
+  p {
+    font-size: 32px;
+  }
+}

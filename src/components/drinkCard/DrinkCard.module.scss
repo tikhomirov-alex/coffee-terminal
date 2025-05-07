@@ -1,0 +1,41 @@
+@use '../../style.scss';
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-top: auto;
+}
+
+.title {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 40px;
+  color: style.$black;
+  span {
+    font-size: 64px;
+  }
+}

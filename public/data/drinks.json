@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Эспрессо",
+    "type": 0,
+    "price": 79,
+    "img": "data/images/espresso.png"
+  },
+  {
+    "id": 2,
+    "title": "Эспрессо 2x",
+    "type": 0,
+    "price": 109,
+    "img": "data/images/espresso2x.png"
+  },
+  {
+    "id": 3,
+    "title": "Американо",
+    "type": 0,
+    "price": 119,
+    "img": "data/images/amerikano.png"
+  },
+  {
+    "id": 4,
+    "title": "Латте",
+    "type": 0,
+    "price": 129,
+    "img": "data/images/latte.png"
+  },
+  {
+    "id": 5,
+    "title": "Капучино",
+    "type": 0,
+    "price": 129,
+    "img": "data/images/capucino.png"
+  },
+  {
+    "id": 6,
+    "title": "Макиато",
+    "type": 0,
+    "price": 129,
+    "img": "data/images/makiato.png"
+  },
+  {
+    "id": 7,
+    "title": "Гляссе",
+    "type": 0,
+    "price": 179,
+    "img": "data/images/glasse.png"
+  },
+  {
+    "id": 8,
+    "title": "Чай 1",
+    "type": 1,
+    "price": 50,
+    "img": "data/images/tea1.png"
+  },
+  {
+    "id": 9,
+    "title": "Чай 2",
+    "type": 1,
+    "price": 77,
+    "img": "data/images/tea2.png"
+  },
+  {
+    "id": 10,
+    "title": "Чай 3",
+    "type": 1,
+    "price": 89,
+    "img": "data/images/tea3.png"
+  },
+  {
+    "id": 11,
+    "title": "Чай 4",
+    "type": 1,
+    "price": 120,
+    "img": "data/images/tea4.png"
+  },
+  {
+    "id": 12,
+    "title": "Чай 5",
+    "type": 1,
+    "price": 139,
+    "img": "data/images/tea5.png"
+  },
+  {
+    "id": 13,
+    "title": "Коктейль №1",
+    "type": 2,
+    "price": 149,
+    "img": "data/images/milkshake1.png"
+  },
+  {
+    "id": 14,
+    "title": "Коктейль №2",
+    "type": 2,
+    "price": 169,
+    "img": "data/images/milkshake2.png"
+  },
+  {
+    "id": 15,
+    "title": "Коктейль №3",
+    "type": 2,
+    "price": 189,
+    "img": "data/images/milkshake3.png"
+  },
+  {
+    "id": 16,
+    "title": "Коктейль №4",
+    "type": 2,
+    "price": 209,
+    "img": "data/images/milkshake4.png"
+  },
+  {
+    "id": 17,
+    "title": "Морс клюква",
+    "type": 3,
+    "price": 119,
+    "img": "data/images/mors.png"
+  },
+  {
+    "id": 18,
+    "title": "Кока-кола",
+    "type": 3,
+    "price": 149,
+    "img": "data/images/cola.png"
+  }
+]

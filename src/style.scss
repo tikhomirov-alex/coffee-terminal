@@ -1,0 +1,51 @@
+$white: #FFFFFF;
+$black: #000000;
+$yellow: #E8C40F;
+$pink: #EFCCB9;
+$green: #C9EA94;
+$milk: #F9ECD2;
+$lightYellow: #FFE665;
+$lightGrey: #F3F3F3;
+$red: #F03B3B;
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

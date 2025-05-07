@@ -1,0 +1,111 @@
+@use '../../style.scss';
+
+p {
+  user-select: none;
+  margin: 0;
+}
+
+.container {
+  width: 1080px;
+  height: 1920px;
+  padding: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: style.$yellow;
+  color: style.$black;
+}
+
+.coffeeText {
+  word-spacing: 100vw;
+  text-transform: uppercase;
+  font-size: 12rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.ellipse {
+  position: absolute;
+  top: 1515px;
+  left: 323px;
+  width: 1022px;
+  height: 1022px;
+  background-color: style.$white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipseTextContainer {
+  position: absolute;
+  bottom: 150px;
+  right: 210px;
+  text-align: center;
+}
+
+.ellipseText {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.cup1 {
+  position: absolute;
+  width: 600px;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+}
+
+.cup2 {
+  position: absolute;
+  width: 900px;
+  z-index: 2;
+  right: 0;
+}
+
+.seed1 {
+  position: absolute;
+  width: 118px;
+  left: 728px;
+  top: 20px;
+}
+
+.seed2 {
+  position: absolute;
+  width: 62px;
+  left: 194px;
+  top: 150px;
+}
+
+.seed3 {
+  position: absolute;
+  width: 123px;
+  left: 500px;
+  top: 210px;
+}
+
+.seed4 {
+  position: absolute;
+  width: 123px;
+  left: 856px;
+  top: 376px;
+}
+
+.seed5 {
+  position: absolute;
+  width: 260px;
+  top: 1320px;
+  left: 135px;
+  z-index: 3;
+}
+
+.seed6 {
+  position: absolute;
+  width: 123px;
+  top: 1364px;
+  left: 880px;
+}

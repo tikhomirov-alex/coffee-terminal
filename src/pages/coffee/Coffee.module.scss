@@ -1,0 +1,152 @@
+@use '../../style.scss';
+
+.container {
+  width: 1080px;
+  height: 1920px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  color: style.$black;
+}
+
+@mixin flexAlignItemsCenter {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  @include flexAlignItemsCenter;
+  justify-content: space-between;
+  padding: 20px 40px;
+  z-index: 2;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+  z-index: 1;
+}
+
+.tab {
+  flex: 0 0 25%;
+  height: 380px;
+  @include flexAlignItemsCenter;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px 20px;
+  cursor: pointer;
+  text-align: center;
+  background-color: style.$lightGrey;
+  font-size: 32px;
+  position: relative;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+
+  &.active {
+    filter: grayscale(0%);
+    background-color: style.$white;
+  }
+  &:first-child {
+    border-top-left-radius: 50px;
+  }
+
+  &:last-child {
+    border-top-right-radius: 50px;
+  }
+
+  &:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #DCDCDC;
+  }
+}  
+
+.circle {
+  width: 161px;
+  height: 161px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  @include flexAlignItemsCenter;
+  justify-content: center;
+}
+
+.tabImg {
+  width: auto;
+  height: 256px;
+  margin-bottom: 100px;
+}
+
+.tabText {
+  margin-top: 10px;
+  font-size: 32px;
+  color: style.$black;
+  line-height: 1.2;
+  height: 2.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.products {
+  width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+  background-color: style.$white;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.productsTitle {
+  margin-top: 20px;
+  position: relative;
+
+  p {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 83px;
+  }
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.arrow {
+  position: absolute;
+  width: 450px;
+  top: -330px;
+  left: 665px;
+  z-index: 0;
+}
+
+.sliderBtn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.productsGrid {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
